@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- you can put style anywhere  -->
+    <style>
+      /* this applies to all the elements on the page */
+      /*
+      * {
+        border: 1px solid red;
+      }
+      */
+      /* // this applies properties to all the divs  */
+      div {
+        border: 1px solid green;
+        /* background-color: lightpink; */
+        /* border radius gives a circlular form to radius */
+      }
+      /* now to put properties to individual elements then  */
+      /* if the div is a square and you apply border radius as 50 then it will crate a perfect circle */
+      .red {
+        background-color: lightpink;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        /* means that curve at 50% of the quadrant */
+      }
+      .blue {
+        background-color: lightblue;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        /* we can manage width in this manner otherwise it is 100 by default */
+      }
+      .green {
+        background-color: lightgreen;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+      }
+      .outer {
+        border: 3px solid purple;
+        width: 200px;
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly; /*move it horizontally, move the content in dev to that alignment */
+        align-items: center; /* move it vertically */
+      }
+      .color-area {
+        border: 1px solid grey;
+        height: 100px;
+        width: 100px;
+        margin-top: 30px;
+        margin-left: 30px;
+      }
+      /* similarly these can also be used */
+      /* body {
+        border: 1px solid blue;
+      }
+      html {
+        border: 1px solid grey;
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- generally height of elements in html are equal to the height of their content -->
+    <!-- div take 100% of the width by default -->
+    <div class="outer">
+      <div class="red"></div>
+      <div class="blue"></div>
+      <div class="green"></div>
+    </div>
+
+    <!-- implements color area -->
+    <div class="color-area"></div>
+    <script>
+      let colorArea = document.querySelector(".color-area"); //it isjust calling the div
+      let redColor = document.querySelector(".red");
+      let blueColor = document.querySelector(".blue");
+      let greenColor = document.querySelector(".green");
+
+      redColor.addEventListener("click", function () {
+        colorArea.style.backgroundColor = "lightpink"; //changes background according to color selected
+      });
+      blueColor.addEventListener("click", function () {
+        colorArea.style.backgroundColor = "lightblue";
+      });
+      greenColor.addEventListener("click", function () {
+        colorArea.style.backgroundColor = "lightgreen";
+      });
+    </script>
+  </body>
+</html>

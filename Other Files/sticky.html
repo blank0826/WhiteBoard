@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+
+  </style>
+  <body>
+    <button>click</button>
+    <h1>Sticky Example</h1>
+    <script>
+      let btn = document.querySelector("button");
+      let body = document.querySelector("body");
+      btn.addEventListener("click", function (e) {
+        let sticky = document.createElement("div");
+        sticky.setAttribute("class", "sticky");
+        sticky.innerHTML = `<div class="navbar">
+        <div class="close"></div>
+        <div class="minimize"></div>
+      </div>
+
+      <textarea name="" class="textarea"></textarea>`;
+        body.appendChild(sticky);
+        let minimize = sticky.querySelector(".minimize");
+        let close = sticky.querySelector(".close");
+        let textArea = sticky.querySelector(".textarea");
+        let isClosed = false;
+        minimize.addEventListener("click", function (e) {
+          if (isClosed == false) {
+            textArea.style.display = "none";
+            isClosed = true;
+          } else {
+            textArea.style.display = "block";
+            isClosed = false;
+          }
+        });
+        close.addEventListener("click", function (e) {
+          sticky.remove();
+        });
+      });
+    </script>
+    <!-- <div class="sticky"></div> -->
+  </body>
+</html>
