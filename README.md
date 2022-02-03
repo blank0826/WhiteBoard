@@ -15,7 +15,7 @@ Created using **HTML, CSS, JavaScript**
 <img src="https://user-images.githubusercontent.com/33955028/152280582-ea94c186-7406-4e86-9f48-6d5a1b9d4314.png" width="500" height="250">
 
 ### <ins>Use of Sticky Note</ins>
-<img src="https://user-images.githubusercontent.com/33955028/152291185-2e23a79b-030b-4815-945e-70a0d7df0886.png" width="500" height="250">
+<img src="https://user-images.githubusercontent.com/33955028/152291671-144666c2-9f1d-4fb8-a8ef-2b456a86f458.png" width="500" height="250">
 Green icon is for minimization and Red icon is for closing the sticky note
 <br/><br/>
 
