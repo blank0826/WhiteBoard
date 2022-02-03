@@ -1,4 +1,4 @@
-#<ins> WhiteBoard </ins>
+# <ins>WhiteBoard </ins>
 ## Description
 This web app extracts information of matches from the website [CricInfo](https://www.espncricinfo.com/series/icc-cricket-world-cup-2019-1144415/match-results) and then creates a folder for each team with pdfs for every match played by the respective team.
 
