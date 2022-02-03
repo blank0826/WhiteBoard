@@ -1,10 +1,8 @@
 # <ins>WhiteBoard </ins>
 ## Description
-This web app extracts information of matches from the website [CricInfo](https://www.espncricinfo.com/series/icc-cricket-world-cup-2019-1144415/match-results) and then creates a folder for each team with pdfs for every match played by the respective team.
+This web app acts as board for your work. You can write create rectangle, lines, use eraser, sticky notes and also change size and color.
 
-We receive the HTML and get the appropriate JSON data required for creating folders and pdfs. After JSON from the website we create our JSON with keeping teams as the main object and from there, we create files and then pdfs (using the [template.pdf](https://github.com/blank0826/Mini-Web-Apps/blob/master/Cric-Info%20Extractor/Template.pdf)) that hold the record of the match.
-
-Created using **JavaScript**
+Created using **HTML, CSS, JavaScript**
 
 ## Screenshots
 ### <ins>Use fo Pencil</ins>
@@ -24,7 +22,7 @@ An IDE with support of HTML, CSS, JavaScript.
 
 ### <ins>Execution</ins>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Pull the code and open it on your IDE.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Run [menu.html](https://github.com/blank0826/WhiteBoard/blob/master/menu.html) and it will run the WhiteBoard.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Run [menu.html](https://github.com/blank0826/WhiteBoard/blob/master/menu.html) and it will run the WhiteBoard.
 
 # Contact
 ## [Aditya Srivastava](mailto:aditya26052002@gmail.com?subject=GitHub)
