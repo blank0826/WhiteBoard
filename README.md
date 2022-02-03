@@ -22,7 +22,7 @@ An IDE with support of HTML, CSS, JavaScript.
 
 ### <ins>Execution</ins>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Pull the code and open it on your IDE.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Run [menu.html](https://github.com/blank0826/WhiteBoard/blob/master/menu.html) and it will run the WhiteBoard.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Run [index.html](https://github.com/blank0826/WhiteBoard/blob/master/index.html) and it will run the WhiteBoard.
 
 ## Website
 ### https://WhiteBoard-3.blank0826.repl.co
