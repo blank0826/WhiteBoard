@@ -7,30 +7,24 @@ We receive the HTML and get the appropriate JSON data required for creating fold
 Created using **JavaScript**
 
 ## Screenshots
-### <ins>Folders of Each Team</ins>
-<img src="https://user-images.githubusercontent.com/33955028/140860482-52f9ce83-f958-49bd-8926-62ec9bb2af1c.png" width="550" height="250">
+### <ins>Use fo Pencil</ins>
+<img src="https://user-images.githubusercontent.com/33955028/152280442-5ceeea86-dff8-40b0-85cd-5b7c0881ca42.png" width="600" height="250">
 
-### <ins>PDF for Each Match for Respective Team</ins>
-<img src="https://user-images.githubusercontent.com/33955028/140860697-bbcf1880-b309-4feb-a53c-aaff4543e29a.png" width="600" height="250">
+### <ins>Use of Rectangle</ins>
+<img src="https://user-images.githubusercontent.com/33955028/152280499-5b32b892-3c60-4e45-b1b8-f928a0db25b2.png" width="600" height="250">
 
-*(Data shown are the matches played by Team INDIA)*
+### <ins>Use of Line</ins>
+<img src="https://user-images.githubusercontent.com/33955028/152280582-ea94c186-7406-4e86-9f48-6d5a1b9d4314.png" width="500" height="250">
 
-### <ins>PDF for Match IND V/S AFG</ins>
-<img src="https://user-images.githubusercontent.com/33955028/140863355-be499d91-e3ec-4b37-98cb-8f068dd22eb2.png" width="500" height="250">
+___All these features have been implemented using various sizes and color changes___
 
 ## Local Setup
 ### <ins>Pre-requisites</ins>
-An IDE with support of JSON, HTML.
+An IDE with support of HTML, CSS, JavaScript.
 
 ### <ins>Execution</ins>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Pull the code and open it on your IDE.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Run [menu.html](https://github.com/blank0826/WhiteBoard/blob/master/menu.html) and it will run the WhiteBoard.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. In the terminal, add 
-
-```
-npm init
-```
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This will get all your required modules.<br />
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Run [Main.js](https://github.com/blank0826/Mini-Web-Apps/blob/master/Cric-Info%20Extractor/Main.js) and it will create the folders and PDFs in the directory where current program is saved.
+# Contact
+## [Aditya Srivastava](mailto:aditya26052002@gmail.com?subject=GitHub)
