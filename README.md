@@ -16,8 +16,8 @@ Created using **HTML, CSS, JavaScript**
 
 ### <ins>Use of Sticky Note</ins>
 <img src="https://user-images.githubusercontent.com/33955028/152291185-2e23a79b-030b-4815-945e-70a0d7df0886.png" width="500" height="250">
-Green icon is for minmization and Red icon is for closing the sticky note
-
+Green icon is for minimization and Red icon is for closing the sticky note
+<br/><br/>
 ___All these features have been implemented using various sizes and color changes___
 
 ## Local Setup
